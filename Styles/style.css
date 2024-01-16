@@ -5,18 +5,23 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
-body h1 {
+h1, h2, h3 {
+   font-family: Playfair Display;
+}
+.hero {
+  text-align: center;
+  background: #f9f7fe;
+}
+.hero h1 {
   font-size: 96px;
-  font-family: Playfair Display;
   font-weight: bold;
 }
 
-body h2 {
+.hero h2 {
   font-size: 48px;
 }
 
-body h3 {
+.hero h3 {
   font-size: 24px;
   opacity: 0.7;
 }
@@ -27,7 +32,7 @@ p {
   font-family: Poppins;
 }
 
-.navigation-links {
+.hero .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
