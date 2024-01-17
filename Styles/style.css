@@ -74,8 +74,11 @@ p {
 }
 
 @media (max-width: 576px) {
-  body h1 {
+  .hero h1 {
     font-size: 48px;
+  }
+  .hero h2 {
+    font-size: 32px;
   }
   body h2 {
     font-size: 32px;
@@ -88,5 +91,8 @@ p {
     display: block;
     text-align: center;
     margin: 0 12px;
+  }
+  .email-link {
+    font-size: 18px;
   }
 }
